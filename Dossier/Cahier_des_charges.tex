@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
 \usepackage{geometry}
+\usepackage{graphicx}
 
 \title{\Huge \textbf{Rapport de projet tuteuré}}
 \author{\Large Felton - Gros - Impéras - Piat - Vareille}
@@ -47,12 +48,28 @@
 	
 	L'utilisateur aura un compte personnel, après avoir rempli le formulaire d'inscription. Lors de son achat (voiture ou accessoire), il sera prié de se connecter afin de finaliser sa commande. S'il n'est pas déjà inscrit, il en sera prié.
 	
+		\begin{figure}[t]
+		\centering
+			\includegraphics[scale=0.5]{../graph/beteACorne1.jpg}
+			\caption{Diagramme des prestations client (ou Bête à corne)}
+	\end{figure}
+		\newpage
 		\subsubsection{Besoin du vendeur}
 		L'utilisation du site lors d'une connexion via un compte vendeur ne sera bien évidemment différente que lors d'une connexion cliente.
 		
 		La gestion des stocks ainsi que l'ajout de nouveaux produits seront des options disponibles. Il faut pouvoir en temps réel les capacités du stock, afin qu'un client ne puisse pas commander un produit en rupture de stock.
 		
-		Il faudra également procéder à l'enregistrement des ventes, ainsi que la gestion des clients (telle que la visualisation des informations pour chaque utilisateur, etc...). 
+		Il faudra également procéder à l'enregistrement des ventes, ainsi que la gestion des clients (telle que la visualisation des informations pour chaque utilisateur, etc...).
+	
+	\begin{figure}[!t]
+		\centering
+			\includegraphics[scale=0.5]{../graph/beteACorne2.jpg}
+			\caption{Diagramme des prestations vendeur (ou Bête à corne)}
+	\end{figure}
+	
+	\newpage
+	~ 
+	\newpage
 	\subsection{Spécifications fonctionnelles}
 	\begin{itemize}
 		\item[]{Failles de sécurité :}
@@ -93,6 +110,12 @@
 				\item[-] Impatience de l'utilisateur;
 				\item[-] Départ du site, perte de confiance; 
 			\end{itemize}
+	\newpage
+	\begin{figure}[h]
+		\centering
+			\includegraphics[scale=0.5]{../graph/pieuvre.jpg}
+			\caption{Pieuvre de l'analyse fonctionnelle}
+	\end{figure}
 	\end{itemize}
 	\subsection{Spécifications techniques et de réalisation}
 	Pour réaliser ce projet, nous allons utiliser :
@@ -104,5 +127,10 @@
 	\end{itemize}
 
 	\subsection{Gestion de projet}
+	...
+	
+	\newpage
+	\appendix
+	\listoffigures
 		
 \end{document}
